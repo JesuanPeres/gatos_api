@@ -14,4 +14,4 @@ use App\Http\Controllers\BreedController;
 |
 */
 
-Route::get('/search', [BreedController::class, 'search']);
+Route::get('/breeds', [BreedController::class, 'search']);
