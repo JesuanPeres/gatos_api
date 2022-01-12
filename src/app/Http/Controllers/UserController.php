@@ -56,7 +56,7 @@ class UserController extends Controller
         auth()->user()->tokens()->delete();
 
         return [
-            'message' => 'Logout concluido com sucesso'
+            'message' => 'Logout concluído com sucesso'
         ];
     }
 }
